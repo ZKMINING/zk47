@@ -1,9 +1,11 @@
 # zk47 prover运行方式(linux)
 
 ## tcp
+pool地址：proxy.zk47.io:10212 
 nohup ./zk47Prover -g 0 -c xxxxxxxxx@gmail.com -d zkprover_1 -p stratum+tcp://proxy.zk47.io:10212 >> prover.log 2>&1 &
 
 ## ssl
+pool地址：proxy.zk47.io:10213
 nohup ./zk47Prover -g 0 -c xxxxxxxxx@gmail.com -d zkprover_1 -p stratum+ssl://proxy.zk47.io:10213  >> prover.log 2>&1 &
 
 ## 参数说明
