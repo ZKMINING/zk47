@@ -1,0 +1,4 @@
+zk47pool:
+  pool: stratum+ssl://proxy.zk47.io:10213   
+  clustername: saka.yi3715@gmail.com  # 修改成自己的账户名称
+  devicename: node168-4090-8ka    # 修改为自己的设备号,建议IP + 型号 + 卡的数量
